@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Главная"
+  navbar:
+    left:
+      - text: "Описание данных"
+        file: about.qmd
+      - text: "Обработка данных"
+        file: Ast_tsi.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+editor: visual
